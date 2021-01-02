@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image:  url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+   width: 100%;
+    height: 100%;
+}
+
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    height: 115vh;
+}
+
+
+    
+
+
+.img-1 {
+    width: 120px;
+    margin: 28px 35px;
+}
+
+.img-2 {
+    width: 80%;
+    margin: 35px 35px;
+    
+}
+.bottom {
+    
+    margin: 2px 25px;
+}
+
+.bottom h1 {
+    font-size: 25px;
+    line-height: 35px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: Poppins;
+    color: white;
+}
+
+.bottom p {
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 20px;
+    font-family: Open Sans;
+    color: white;
+}
+
+button {
+      background-color:white;
+  border: none;
+  color: hsl(257, 40%, 49%);
+  padding: 10px 62px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 49px;
+  cursor: pointer;
+    border-radius: 25px;
+}
+
+.icons  {
+    padding-top: 70px;
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icons .fab {
+    margin : 0 7px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+    
+
+}
+
+@media (min-width: 900px) {
+    
+    body {
+        background-image: url(images/bg-desktop.svg);
+    }
+    
+    .container {
+        width: 100%;
+        max-width: inherit;
+    }
+    .img-1 {
+      width: 200px;
+        margin: 50px 50px;
+    }
+    
+    .img-2 {
+        margin: 40px 60px;
+        width: 700px;
+    }
+    
+    .sub {
+        display: flex;
+    }
+    
+    .bottom {
+        margin: 90px 0;
+        
+    }
+    
+    .bottom h1 {
+        text-align: left;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    
+    .bottom p {
+        text-align: start;
+        margin: 2px 0px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    button {
+        margin: 0 ;
+    }
+    
+    .icons {
+        padding-right: 12px;
+        padding-top: 480px;
+        margin-right: 10px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
