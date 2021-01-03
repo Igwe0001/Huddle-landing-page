@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     max-width: 350px;
     margin: 0 auto;
-    height: 110vh;
+    height: 100vh;
 }
 
 
@@ -66,6 +66,12 @@ button {
     margin: 1px 49px;
     cursor: pointer;
     border-radius: 25px;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
 }
 
 .icons {
