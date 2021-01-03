@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     max-width: 350px;
     margin: 0 auto;
-    height: 105vh;
+    height: 100vh;
 }
 
 
@@ -108,7 +108,8 @@ button:hover {
         width: 100%;
         max-width: inherit;
         background-image: url(images/bg-desktop.svg);
-        background-repeat: no-repeat
+        background-repeat: no-repeat;
+        height: 110vh;
     }
 
     .img-1 {
