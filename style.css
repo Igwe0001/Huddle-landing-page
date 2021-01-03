@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     max-width: 350px;
     margin: 0 auto;
-    height: 100vh;
+    height: 105vh;
 }
 
 
@@ -92,7 +92,13 @@ button:hover {
     height: 30px;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.icons .fab:hover{
+    border: none;
 }
 
 @media (min-width: 900px) {
@@ -146,6 +152,10 @@ button:hover {
         padding-top: 480px;
         margin-right: 10px;
 
+    }
+    
+    .icons .fab:hover {
+        transform: translateY(-8px);
     }
 
 }
