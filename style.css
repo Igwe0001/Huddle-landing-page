@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     max-width: 350px;
     margin: 0 auto;
-    height: 100vh;
+    height: 112vh;
 }
 
 
@@ -109,7 +109,7 @@ button:hover {
         max-width: inherit;
         background-image: url(images/bg-desktop.svg);
         background-repeat: no-repeat;
-        height: 110vh;
+        height: 125vh;
     }
 
     .img-1 {
@@ -127,31 +127,39 @@ button:hover {
     }
 
     .bottom {
-        margin: 90px 0;
+        margin: 90px 0px;
 
     }
 
     .bottom h1 {
         text-align: left;
-        font-size: 35px;
-        line-height: 50px;
+        font-size: 45px;
+        line-height: 60px;
+        padding-bottom: 20px;
     }
 
     .bottom p {
         text-align: start;
         margin: 2px 0px;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 20px;
+        line-height: 30px;
     }
 
+    .text {
+        
+    }
     button {
         margin: 0;
+       padding: 20px 50px;
+        text-align: center;
+        display: inline-block;
     }
 
     .icons {
-        padding-right: 12px;
-        padding-top: 480px;
-        margin-right: 10px;
+        margin-top: 120px;
+        margin-right: 50px;
+        display: flex;
+        justify-content: flex-end;
 
     }
     
